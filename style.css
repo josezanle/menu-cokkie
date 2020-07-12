@@ -59,8 +59,9 @@ nav {
     flex-flow: column;
     background: rgb(0, 0, 0, .8);
     transition: transform .5s ease-in;
-    transform: translate(300%);
+    transform: translate(5%);
     border-left: 2px solid black;
+    opacity: 0;
 }
 
 a {
@@ -73,6 +74,7 @@ a {
 
 .spread {
     transform: translate(0);
+    opacity: 1;
 }
 
 .bottom-icons {
